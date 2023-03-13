@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Frobot-icon-bot-sign-design-chatbot-symbol-concept-voice-support-service-bot-online-support-bot_100456-9645.jpg&imgrefurl=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Frobot-icon-bot-sign-design-chatbot-symbol-concept-voice-support-service-bot-online-support-bot_29594591.htm&tbnid=jGamA8vmaFaI1M&vet=12ahUKEwjApf3C_dj9AhXMGHcKHYybCz0QMyhmegUIARCzAQ..i&docid=TFu9fw5c5OEamM&w=626&h=385&itg=1&q=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B1%D0%BE%D1%82%D0%B0&ved=2ahUKEwjApf3C_dj9AhXMGHcKHYybCz0QMyhmegUIARCzAQ')).buffer()
+let img = await(await fetch('https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Fchatbot-icon-concept-chat-bot-or-chatterbot-robot-virtual-assistance-of-website_24275092.htm&psig=AOvVaw1jH9ybVxNdVfjjzZifjqK8&ust=1678799472604000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKify8P92P0CFQAAAAAdAAAAABAF')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -637,7 +637,7 @@ mediaUrl: null,
 title: '👑 пиздюк👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Frobot-icon-bot-sign-design-chatbot-symbol-concept-voice-support-service-bot-online-support-bot_100456-9645.jpg&imgrefurl=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Frobot-icon-bot-sign-design-chatbot-symbol-concept-voice-support-service-bot-online-support-bot_29594591.htm&tbnid=jGamA8vmaFaI1M&vet=12ahUKEwjApf3C_dj9AhXMGHcKHYybCz0QMyhmegUIARCzAQ..i&docid=TFu9fw5c5OEamM&w=626&h=385&itg=1&q=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B1%D0%BE%D1%82%D0%B0&ved=2ahUKEwjApf3C_dj9AhXMGHcKHYybCz0QMyhmegUIARCzAQ`
+sourceUrl: `https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Fchatbot-icon-concept-chat-bot-or-chatterbot-robot-virtual-assistance-of-website_24275092.htm&psig=AOvVaw1jH9ybVxNdVfjjzZifjqK8&ust=1678799472604000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKify8P92P0CFQAAAAAdAAAAABAF`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
