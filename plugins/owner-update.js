@@ -10,6 +10,6 @@ await m.reply(update.toString())
 }}
 handler.help = ['update']
 handler.tags = ['owner']
-handler.command = /^update|actualizar$/i
+handler.command = /^обновить|actualizar$/i
 handler.rowner = true
 export default handler
