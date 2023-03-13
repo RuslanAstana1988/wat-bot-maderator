@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch(https://thumbs.dreamstime.com/b/бе-ый-робот-36690901.jpg')).buffer()
+let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -637,7 +637,7 @@ mediaUrl: null,
 title: '👑 пиздюк👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://thumbs.dreamstime.com/b/бе-ый-робот-36690901.jpg`
+sourceUrl: `ссылка`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
