@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Fchatbot-icon-concept-chat-bot-or-chatterbot-robot-virtual-assistance-of-website_24275092.htm&psig=AOvVaw1jH9ybVxNdVfjjzZifjqK8&ust=1678799472604000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKify8P92P0CFQAAAAAdAAAAABAF')).buffer()
+let img = await(await fetch(https://thumbs.dreamstime.com/b/бе-ый-робот-36690901.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -637,7 +637,7 @@ mediaUrl: null,
 title: '👑 пиздюк👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Fchatbot-icon-concept-chat-bot-or-chatterbot-robot-virtual-assistance-of-website_24275092.htm&psig=AOvVaw1jH9ybVxNdVfjjzZifjqK8&ust=1678799472604000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKify8P92P0CFQAAAAAdAAAAABAF`
+sourceUrl: `https://thumbs.dreamstime.com/b/бе-ый-робот-36690901.jpg`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
