@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
+let img = await(await fetch('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fchatbot-icon-concept-chat-bot-or-chatterbot-robot-virtual-assistance-of-website_123447-1512.jpg&imgrefurl=https%3A%2F%2Fru.freepik.com%2Fpremium-vector%2Fchatbot-icon-concept-chat-bot-or-chatterbot-robot-virtual-assistance-of-website_24275092.htm&tbnid=t44DKUaAGq_piM&vet=12ahUKEwjApf3C_dj9AhXMGHcKHYybCz0QMygnegUIARCNAg..i&docid=S-G7orQVJ4hi3M&w=626&h=626&q=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%B1%D0%BE%D1%82%D0%B0&ved=2ahUKEwjApf3C_dj9AhXMGHcKHYybCz0QMygnegUIARCNAg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -26,9 +26,9 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
+║    ◉— *Пиздюк* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
+║➤ *Привет, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* Bruno Sobrino
 ║➤ *Numero:* wa.me/77755611654
@@ -593,7 +593,7 @@ ${readMore}
 ┣ ඬ⃟ 👑 _${usedPrefix}bcbot *<texto>*_
 ┣ ඬ⃟ 👑 _${usedPrefix}cleartpm_
 ┣ ඬ⃟ 👑 _${usedPrefix}restart_
-┣ ඬ⃟ 👑 _${usedPrefix}update_
+┣ ඬ⃟ 👑 _${usedPrefix}обновить_
 ┣ ඬ⃟ 👑 _${usedPrefix}banlist_
 ┣ ඬ⃟ 👑 _${usedPrefix}addprem *<@tag>*_
 ┣ ඬ⃟ 👑 _${usedPrefix}delprem *<@tag>*_
