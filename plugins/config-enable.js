@@ -28,46 +28,46 @@ rows: [
 const listMessage = {
 text: ' ',
 footer: `┏━━━━━━━━━━━━━┓
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *welcome*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *welcome*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *public*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *public*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *modohorny*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *modohorny*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antilink*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antilink*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antilink2*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antilink2*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *detect*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *detect*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *restrict*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *restrict*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *pconly*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *pconly*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *gconly*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *gconly*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *autoread*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *autoread*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *audios*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *audios*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiviewonce*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiviewonce*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *autosticker*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *autosticker*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *anticall*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *anticall*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiprivado*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiprivado*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antitoxic*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antitoxic*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antitraba*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antitraba*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiarabes*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiarabes*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *modejadibot*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *modejadibot*_
-┣ ඬ⃟ℹ️ _${usedPrefix}enable *modoadmin*_
-┣ ඬ⃟ℹ️ _${usedPrefix}disable *modoadmin*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *приветствие*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *приветствие*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *публичный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *публичный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *медио+18*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *медио+18*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антиссылка*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиссылка*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антиссылка2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиссылка2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *обнаружить*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *обнаружить*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *ограничить*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *ограничить*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *блок*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *блок*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *толькогруппа*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *толькогруппа*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *авточтение*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *авточтение*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *аудио*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *аудио*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антивиденье*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антивиденье*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *автостикер*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *автостикер*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *частный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *частный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *протвоугонный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *противоугонный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антитоксичный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антитоксичный*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антитраба*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антитраба*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *антиарабик*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *антиарабик*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *модебот*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *модебот*_
+┣ ඬ⃟ℹ️ _${usedPrefix}включить *толькоадмин*_
+┣ ඬ⃟ℹ️ _${usedPrefix}выключить *толькоадмин*_
 ┗━━━━━━━━━━━━━┛`,
 title: null,
 buttonText: "𝐒𝐄𝐋𝐄𝐂𝐂𝐈𝐎𝐍𝐄 𝐀𝐐𝐔𝐢",
@@ -80,7 +80,7 @@ let bot = global.db.data.settings[conn.user.jid] || {}
 let type = (args[0] || '').toLowerCase()
 let isAll = false, isUser = false
 switch (type) {
-case 'welcome':
+case 'приветствие':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)

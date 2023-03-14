@@ -30,7 +30,7 @@ let str = `
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Привет, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* Bruno Sobrino
+║➤ *Owner:* РУСЛАН
 ║➤ *Numero:* wa.me/77789008940
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
