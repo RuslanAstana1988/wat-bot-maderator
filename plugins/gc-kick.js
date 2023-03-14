@@ -19,7 +19,7 @@ return
 }}
 handler.help = ['kick']
 handler.tags = ['group']
-handler.command = /^(kick|echar|hechar|sacar)$/i
+handler.command = /^(удалить|echar|hechar|sacar)$/i
 handler.admin = handler.group = handler.botAdmin = true
 export default handler
 /*var mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid
