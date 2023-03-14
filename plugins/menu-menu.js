@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://www.paidmembershipspro.com/wp-content/uploads/2017/07/PayPal-Express.png')).buffer()
+let img = await(await fetch('https://www.google.com/url?sa=i&url=https%3A%2F%2Fimgpng.ru%2Fdownload%2F45303&psig=AOvVaw3TtgSUnu3Dl0OR1DdjR6IF&ust=1678877596099000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCWu8eg2_0CFQAAAAAdAAAAABAF')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -202,7 +202,8 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔾ℝ𝕌ℙ𝕆𝕊 />* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💎 _${usedPrefix}добавить *<numero>*_
+┣ ඬ⃟ 💎 _${usedPrefix}добавить *<номер>*_
+┣ ඬ⃟ 💎 _${usedPrefix}внимание *<текст>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}снести *<@номер>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}удалить *<медио>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}listanum *<texto>*_
