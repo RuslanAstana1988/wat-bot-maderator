@@ -32,8 +32,8 @@ let str = `
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* РУСЛАН
 ║➤ *Numero:* wa.me/77789008940
-║➤ *Fecha:* ${date}
-║➤ *Tiempo activo:* ${uptime}
+║➤ *Fecha:* ${ДАТА}
+║➤ *Tiempo activo:* ${ВРЕМЯ}
 ║➤ *Usuarios:* ${rtotalreg}
 ╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
 
