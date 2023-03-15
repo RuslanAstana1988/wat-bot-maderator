@@ -25,7 +25,7 @@ conn.reply(m.chat, `*[ ✅ ] ÓRDENES RECIBIDAS*`, m)
 }}
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'demote ' + v)
 handler.tags = ['группа']
-handler.command = /^(demote|quitarpoder|удаление администратора)$/i
+handler.command = /^(понизить|quitarpoder|удаление администратора)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
