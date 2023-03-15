@@ -1,4 +1,4 @@
-let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
+let handler = async(m, { isOwner, isAdmin, conn, текст, участники, аргумент, команда }) => {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
@@ -11,8 +11,8 @@ teks += `┣➥ @${mem.id.split('@')[0]}\n`}
 teks += `*└* 𝐁𝐲 𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭\n\n*▌│█║▌║▌║║▌║▌║▌║█*`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['tagall <mesaje>','invocar <mesaje>']
-handler.tags = ['group']
+handler.help = ['tagall <сообщение>','invocar <mesaje>']
+handler.tags = ['группа']
 handler.command = /^(внимание|invocar|invocacion|todos|invocación)$/i
 handler.admin = true
 handler.group = true
