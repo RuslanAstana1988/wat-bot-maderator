@@ -7,8 +7,8 @@ var number = text.split`@`[1]
 var number = text
 }
 	
-if(!text && !m.quoted) return conn.reply(m.chat, `*[❗] USO APROPIADO*\n\n*┯┷*\n*┠≽ ${usedPrefix}quitaradmin @tag*\n*┠≽ ${usedPrefix}quitaradmin -> responder a un mensaje*\n*┷┯*`, m)
-if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*[ ⚠️ ] El número ingresado es incorrecto, por favor ingrese el número correcto*`, m)
+if(!text && !m.quoted) return conn.reply(m.chat, `*[❗] ИСПОЛЬЗОВАНИЕ*\n\n*┯┷*\n*┠≽ ${usedPrefix}АДМИН @номер*\n*┠≽ ${usedPrefix}АДМИН -> ответит на сообщение*\n*┷┯*`, m)
+if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*[ ⚠️ ] Введён не верный номер,пожалуйста введите правельный номер*`, m)
   
 try {
 if(text) {
@@ -20,12 +20,12 @@ var user = number + '@s.whatsapp.net'
 } 
 } catch (e) {
 } finally {
-conn.groupParticipantsUpdate(m.chat, [user], 'demote')
+conn.groupParticipantsUpdate(m.chat, [user], 'понизить')
 conn.reply(m.chat, `*[ ✅ ] ÓRDENES RECIBIDAS*`, m)
 }}
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'demote ' + v)
-handler.tags = ['group']
-handler.command = /^(demote|quitarpoder|quitaradmin)$/i
+handler.tags = ['группа']
+handler.command = /^(demote|quitarpoder|удаление администратора)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
