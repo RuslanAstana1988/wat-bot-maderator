@@ -595,10 +595,10 @@ ${readMore}
 ┣ ඬ⃟ 👑 _${usedPrefix}cleartpm_
 ┣ ඬ⃟ 👑 _${usedPrefix}restart_
 ┣ ඬ⃟ 👑 _${usedPrefix}обновить_
-┣ ඬ⃟ 👑 _${usedPrefix}banlist_
-┣ ඬ⃟ 👑 _${usedPrefix}addprem *<@tag>*_
-┣ ඬ⃟ 👑 _${usedPrefix}delprem *<@tag>*_
-┣ ඬ⃟ 👑 _${usedPrefix}listprem_
+┣ ඬ⃟ 👑 _${usedPrefix}банлист_
+┣ ඬ⃟ 👑 _${usedPrefix}датьпрем *<@tag>*_
+┣ ඬ⃟ 👑 _${usedPrefix}удалитьпрем *<@tag>*_
+┣ ඬ⃟ 👑 _${usedPrefix}листпрем_
 ┣ ඬ⃟ 👑 _${usedPrefix}listcmd_
 ┣ ඬ⃟ 👑 _${usedPrefix}setppbot *<responder a imagen>*_
 ┣ ඬ⃟ 👑 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
@@ -619,9 +619,9 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 `.trim()
 let buttons = [
-{ buttonId: '#donar', buttonText: { displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮' }, type: 1 },
+{ buttonId: '#donar', buttonText: { displayText: '📮 ДОНАР 📮' }, type: 1 },
 //{ buttonId: '#terminosycondiciones', buttonText: { displayText: '📋 𝚃𝙴𝚁𝙼𝙸𝙽𝙾𝚂 𝚈 𝙲𝙾𝙽𝙳𝙸𝙲𝙸𝙾𝙽𝙴𝚂 📋' }, type: 1 }]
-{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
+{ buttonId: '#infobot', buttonText: { displayText: '🐾 ИНФОБОТ 🐾' }, type: 1 }]
 let buttonMessage = {
 image: pp,
 caption: str.trim(),
